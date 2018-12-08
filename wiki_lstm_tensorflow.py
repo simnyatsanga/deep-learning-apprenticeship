@@ -13,7 +13,7 @@ import datetime as dt
 # wiki_en_test.txt -> sed -n '13408,14896p;14897q' wiki_en.txt > wiki_en_test.txt
 # Ref: https://stackoverflow.com/questions/83329/how-can-i-extract-a-predetermined-range-of-lines-from-a-text-file-on-unix
 
-data_path = "wiki_data"
+data_path = "datasets/wiki_data"
 
 parser = argparse.ArgumentParser()
 parser.add_argument('run_opt', type=int, default=1, help='An integer: 1 to train, 2 to test')

@@ -2,7 +2,7 @@ import tensorflow as tf
 from tensorflow.examples.tutorials.mnist import input_data
 
 # one_hot ensures correct answers are turned from eg. 4 -> [0,0,0,0,1,0,0,0,0,0,0]
-mnist = input_data.read_data_sets("MNIST_data/", one_hot=True)
+mnist = input_data.read_data_sets("datasets/MNIST_data/", one_hot=True)
 # Python optimisation variables
 learning_rate = 0.5
 epochs = 10
